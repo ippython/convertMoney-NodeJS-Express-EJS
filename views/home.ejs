@@ -1,0 +1,11 @@
+<%- include('header.ejs')%>
+
+<div id="container">
+    <form method="GET" action="/cotacao">
+        <input type="number" name="cotacao" placeholder="Cotação do Dolar">
+        <input type="number" name="quantidade" placeholder="Quantidade de Dolares">
+        <button>Convert</button>
+    </form>
+</div>
+
+<%- include('footer.ejs')%>
